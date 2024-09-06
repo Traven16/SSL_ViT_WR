@@ -1,0 +1,26 @@
+python3 -u main_cmd.py \
+    --train=false \
+    --force_keypoints=true \
+    --extract=false \
+    --arch=vit_small \
+    --patch_size=16 \
+    --extract_train=true \
+    --extract_test=true \
+    --extract_threshold_foreground=1 \
+    --aggregate=false \
+    --aggregate_bvlad=false \
+    --aggregate_cls=true \
+    --aggregate_fg=true \
+    --aggregate_vlad=true \
+    --aggregate_vlad_centroids=100 \
+    --retrieval=true \
+    --stride_factor_eval=0.5 \
+    --dataset_window_size=224 \
+    --checkpoint=/data/amatei/experiments/004.pth \
+    --train_images=/data/traven/icdar17/train_binary \
+    --test_images=/data/traven/icdar17/test_binary \
+    --dump_run=/data/traven/runs/icdar17/005 \
+    --eval_pca_dims=384 \
+    --model_checkpoint_loadmode=dino \
+    --force_single_shot=false \
+    --label_authorid_stopchar=- \
