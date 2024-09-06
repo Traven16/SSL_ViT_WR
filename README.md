@@ -10,7 +10,7 @@ The method proposed in this paper achieves state-of-the-art performance on the *
 
 [Read the paper on arXiv](https://arxiv.org/abs/2409.00751)
 
-![Overview Schematic](assets/FIg1.drawio_6.png)
+![Overview Schematic](assets/FIg1.drawio_6-1.png)
 
 ## Overview
 
